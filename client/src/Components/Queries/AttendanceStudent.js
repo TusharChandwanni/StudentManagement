@@ -3,7 +3,7 @@ import axios from "../../config/api/axios";
 import UserContext from "../../Hooks/UserContext";
 import { TableHeader } from "../Table";
 import ErrorStrip from "../ErrorStrip";
-import AttendancePieChart from "../Charts/PieCharts2.js"
+
 
 const data = [
   [{ id: 0, value: Math.floor(15 * Math.random()), label: 'Present', color: 'green' },
@@ -124,13 +124,7 @@ const AttendanceStudent = () => {
         <AttendancePieChart subject={"Data Structures"} />
         <AttendancePieChart subject={"Computer Networks"} />
       </section> */}
-      <div style={{ display: 'flex', flexWrap: 'wrap' }}>
-        {paperList.map(({ paper }, index) => {
-          return (
-            <AttendancePieChart key={paper} subject={paper} data={data[index]} />
-          );
-        })}
-      </div>
+      
 
     </main>
   );

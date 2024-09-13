@@ -4,7 +4,7 @@ import { TableHeader } from "../Table";
 import axios from "../../config/api/axios";
 import Loading from "../Layouts/Loading";
 import ErrorStrip from "../ErrorStrip";
-import MarksLineChart from "../Charts/StudentComparision";
+
 
 const studentMarks=[[3,15,3,32],[7,12,8,23]];
 const classAverage=[[5,11,7,28],[7,28,6,28]];
@@ -78,11 +78,7 @@ const InternalStudent = () => {
       ) : (
         <Loading />
       )}
-      <section>
-        {paperList.map(({ paper }, index) => {
-          return <MarksLineChart classAverage={classAverage[index]} studentMarks={studentMarks[index]} subject={paper} />;
-        })}
-      </section>
+      
     </main>
   );
 };

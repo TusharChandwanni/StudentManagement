@@ -5,7 +5,7 @@ import { FaPlus, FaEdit, FaTrash } from "react-icons/fa";
 import { toast } from "react-toastify";
 import { TableHeader, RowWithCheckbox } from "../Table";
 import ErrorStrip from "../ErrorStrip";
-import TeacherSubjectComponent from "../Charts/TeacherAttendanceData";
+
 
 const attendedClasses = [ [60, 62, 55, 54, 43, 61, 46, 38, 57, 50,
   39, 38, 37, 32, 31, 30, 29 ],
@@ -271,11 +271,7 @@ const Attendance = () => {
           )}
         </form>
       </section>
-      <section>
-        {paperList.map(({paper},index)=>{
-          return <TeacherSubjectComponent pieData={data[index]} attendedData={attendedClasses[index]} subject={paper}/>
-        })} 
-      </section>
+      
     </main>
   );
 };
