@@ -20,7 +20,7 @@ Preview of functionalities :
 
 This project is an initiative to help institutes to provide them with a platform for better presentation of data.
 
-Team(2)
+Team Members(2)
 
 Tushar Chandwanni
 
