@@ -11,6 +11,6 @@ router
 router
   .route("/paper/:paperId")
   .get(notesController.getNotes)
-  .post(notesController.addNotes);
+ 
 
 module.exports = router;
