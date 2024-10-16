@@ -1,6 +1,5 @@
                                                      Student Management Portal
-The Student Management Portal is centralized Digital platform to streamline various administrative tasks related to managing in educational instituted .Currently it is build with idea of developing a platform for my college (Lnmiit) but can be helpful for other institutes also.
-
+The Student Management Portal is centralized Digital platform to streamline various administrative tasks related to managing in educational instituted .Currently it is build with idea of developing a platform for my college (Lnmiit) but can be helpful for other institutes across India.
 
 ![main](https://github.com/TusharChandwanni/StudentManagement/assets/97699528/c6715a1d-d6c5-4851-8567-d1732fe33504)        
 
