@@ -6,11 +6,8 @@ The Student Management Portal is centralized Digital platform to streamline vari
 Further there are functionalities to improve interaction between student and teacher easier : 
 
 1)Repository storage for previous year paper and other important stuff
-
 2)Attendence record calculation
-
 3)Internal Marks storing and calculations
-
 4)Time schedule generation
 
 ![main2](https://github.com/TusharChandwanni/StudentManagement/assets/97699528/80f4cf4b-ec13-4e6f-88e8-dc8281ee7d99)
