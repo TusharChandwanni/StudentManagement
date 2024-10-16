@@ -21,8 +21,5 @@ Preview of functionalities :
 This project is an initiative to help institutes to provide them with a platform for better presentation of data.
 
 Team Members(2)
-
-Tushar Chandwanni
-
-Ayush Anand
+Tushar Chandwanni,Ayush Anand
 
